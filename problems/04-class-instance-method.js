@@ -55,7 +55,18 @@ console.log(message2.getSubjectAndText());
 
 ***********************************************************************/
 
+class Email {
+  constructor(recipient, sender, subject, text) {
+    this.recipient = recipient;
+    this.sender = sender;
+    this.subject = subject;
+    this.text = text;
+  }
 
+  getSubjectAndText() {
+    return `${this.subject}: ${this.text}`;
+  }
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
