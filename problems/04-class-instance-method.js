@@ -60,7 +60,7 @@ class Email {
     this.recipient = recipient;
     this.sender = sender;
     this.subject = subject;
-    this. text = text;
+    this.text = text;
   }
 
   getSubjectAndText() {
